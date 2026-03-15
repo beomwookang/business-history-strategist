@@ -1,0 +1,26 @@
+{
+  "name": "business-history-strategist",
+  "owner": {
+    "name": "beomwookang"
+  },
+  "metadata": {
+    "description": "Classical warfare wisdom meets modern business strategy simulation",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "business-history-strategist",
+      "source": ".",
+      "description": "Applies Sun Tzu, Clausewitz, Machiavelli, 36 Stratagems, and more to simulate competitive scenarios and build actionable startup strategies.",
+      "version": "1.0.0",
+      "author": {
+        "name": "beomwookang"
+      },
+      "repository": "https://github.com/beomwookang/business-history-strategist",
+      "license": "MIT",
+      "keywords": ["strategy", "business", "startup", "history", "warfare", "simulation"],
+      "category": "productivity",
+      "tags": ["strategy", "business", "startup", "history", "competitive-analysis"]
+    }
+  ]
+}
