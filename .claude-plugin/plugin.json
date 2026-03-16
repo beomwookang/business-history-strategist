@@ -6,6 +6,7 @@
     "name": "beomwookang"
   },
   "repository": "https://github.com/beomwookang/business-history-strategist",
+  "homepage": "https://github.com/beomwookang/business-history-strategist",
   "license": "MIT",
   "keywords": [
     "strategy",
@@ -13,9 +14,7 @@
     "startup",
     "history",
     "warfare",
-    "simulation",
-    "sun-tzu",
-    "clausewitz",
-    "competitive-analysis"
-  ]
+    "simulation"
+  ],
+  "skills": "./skills/"
 }
