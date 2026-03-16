@@ -116,6 +116,8 @@ When presenting analogies:
 For the specific historical sources and strategic traditions, read:
 - `references/eastern-classics.md` — Sun Tzu, 36 Stratagems, Three Kingdoms, Korean military history
 - `references/western-classics.md` — Clausewitz, Machiavelli, Napoleon, Hannibal, guerrilla warfare
+- `references/modern-cases.md` — Real-world modern business case studies mapped to each archetype (Notion, Airbnb, Tesla, Slack, etc.)
+- `references/industry-patterns.md` — Industry-specific tactical patterns (SaaS, Marketplace, Hardware, D2C, Fintech, AI/ML, Healthcare)
 
 ---
 

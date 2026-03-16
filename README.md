@@ -1,136 +1,209 @@
 # Business History Strategist
 
-> Classical warfare wisdom meets modern business strategy simulation
+### *When history's greatest generals meet your startup's toughest decisions*
 
-A Claude Code skill that applies **battle-tested strategic principles** from Sun Tzu, Clausewitz, Machiavelli, the 36 Stratagems, Yi Sun-sin, Three Kingdoms, and more to your real business challenges — complete with **scenario simulation, risk/probability analysis, and actionable roadmaps**.
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/beomwookang/business-history-strategist)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-orange.svg)](https://claude.ai/code)
+[![Archetypes](https://img.shields.io/badge/archetypes-15-purple.svg)](references/pattern-library.md)
+[![Cases](https://img.shields.io/badge/case%20studies-40%2B-red.svg)](references/modern-cases.md)
 
-## Who Is This For?
+> *"Supreme excellence consists in breaking the enemy's resistance without fighting."*
+> — Sun Tzu, 孫子兵法
 
-**Startup founders and early-stage teams** who need sharp, realistic strategy — not generic MBA frameworks.
+A Claude Code plugin that applies **battle-tested strategic principles** — from Hannibal's double envelopment to Airbnb's regulatory pivot — to your real business challenges. Not generic MBA frameworks. Deep structural pattern matching, competitive war-gaming, and actionable execution roadmaps.
 
-- You have limited resources and need to outmaneuver larger competitors
-- You want to simulate competitive responses before committing to a strategy
-- You need a structured approach to market entry, expansion, or pivot decisions
-- You believe that history's most proven strategies can illuminate today's business battles
+---
 
-## Installation
+## Why This Exists
+
+Most strategy advice is either too abstract ("build a moat") or too tactical ("run more A/B tests"). What's missing is the middle layer: **structural pattern recognition** — understanding *why* certain competitive dynamics play out the way they do, using the clearest examples history has to offer.
+
+Hannibal didn't just beat Rome at Cannae. He solved a resource-inferiority problem with tactical innovation. Yi Sun-sin didn't just win at Myeongnyang. He turned a 13-vs-133 disadvantage into a terrain advantage. These aren't war stories. They're **generalizable strategic frameworks** — and they map directly onto startup competition, market entry, price wars, and platform battles.
+
+This plugin exists to make that translation automatic.
+
+---
+
+## Quick Start
 
 ### Via Plugin Marketplace (Recommended)
-
-This repo serves as both a plugin and a marketplace. Add it with a single command inside Claude Code:
 
 ```bash
 /plugin marketplace add beomwookang/business-history-strategist
 ```
 
-Then install the plugin:
-
 ```bash
 /plugin install business-history-strategist@beomwookang-business-history-strategist
 ```
 
-Once installed, the skill is available as `/business-history-strategist:business-history-strategist`.
+The skill is then available as `/business-history-strategist:business-history-strategist`.
 
 ### Manual Installation
-
-If you prefer to install without the marketplace:
 
 ```bash
 git clone https://github.com/beomwookang/business-history-strategist.git
 ```
 
-#### Project-level (current project only)
-
+**Project-level** (current project only):
 ```bash
 cp -r business-history-strategist/ .claude/skills/business-history-strategist/
 ```
 
-#### User-level (available in all projects)
-
+**User-level** (available in all projects):
 ```bash
 cp -r business-history-strategist/ ~/.claude/skills/business-history-strategist/
 ```
 
+---
+
 ## How It Works
 
-The skill walks you through a structured four-phase workflow:
+The plugin runs a structured four-phase workflow — from raw situation to a full execution plan.
 
 ```
-Phase 1: Situation Diagnosis  -->  Gather your business context
-Phase 2: Historical Matching  -->  Find analogous battles & strategies
-Phase 3: War-Gaming           -->  Simulate scenarios with risk mapping
-Phase 4: Strategy & Outputs   -->  Deliver reports, visuals, roadmap
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│   Phase 1          Phase 2          Phase 3          Phase 4   │
+│                                                                 │
+│   DIAGNOSE    →    MATCH      →    WAR-GAME    →    EXECUTE    │
+│                                                                 │
+│   Gather your    Find analogous    Simulate 3-4      Deliver   │
+│   battlefield    battles &         scenarios with    report,   │
+│   picture        patterns          risk mapping      roadmap   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-### Phase 1: Situation Diagnosis
+**Phase 1 — Situation Diagnosis**
+Choose a Quick Briefing (conversational Q&A) or Full Briefing (structured template). Live web searches pull in the latest competitor intel, funding news, and market trends.
 
-Choose between a **Quick Briefing** (conversational Q&A) or a **Full Briefing** (structured template). The skill also runs web searches to pull in the latest market data, competitor intel, and industry trends.
+**Phase 2 — Historical Pattern Matching**
+Your situation is classified into one or more of 15 strategic archetypes and matched with 2-3 structurally analogous historical cases. Deep structural parallels — not surface-level metaphors.
 
-### Phase 2: Historical Pattern Matching
+**Phase 3 — War-Gaming**
+3-4 distinct scenarios generated, each with: competitive response chains (2-3 moves ahead), risk matrices with probability/impact ratings, success probability assessments, and full resource requirements.
 
-Your situation is classified into strategic archetypes and matched with 2-3 structurally analogous historical cases. Not surface-level comparisons — deep structural parallels where power dynamics, resource ratios, and strategic options genuinely map onto your situation.
+**Phase 4 — Strategy & Outputs**
+Three deliverables: a Markdown strategic report, an interactive strategy visualization, and a milestone-driven execution roadmap with decision gates.
 
-### Phase 3: War-Gaming (Scenario Simulation)
+---
 
-3-4 distinct strategic scenarios are generated, each including:
-- **Competitive response chains** — predicting 2-3 moves ahead
-- **Risk matrices** — probability, impact, and mitigation for each risk
-- **Success probability assessments** — with explicit reasoning
-- **Resource requirements** — cost, team, timeline, and dependencies
+## What's Inside
 
-### Phase 4: Strategy Formulation & Outputs
+| | |
+|---|---|
+| **15 Strategic Archetypes** | From resource-inferior challenger to M&A strategy — every major competitive situation mapped |
+| **40+ Modern Case Studies** | Airbnb, Notion, Tesla, Slack, SpaceX, Netflix, Uber, and more — with structural analysis |
+| **100+ Sub-Tactics** | Detailed, named tactical moves under each archetype |
+| **7 Industry Patterns** | SaaS, Marketplace, Hardware, D2C, Fintech, AI/ML, Healthcare — each with industry-specific dynamics |
+| **60+ Named Principles** | From "Feint East, Strike West" to "Crossing the Chasm" — precisely named and reusable |
+| **30+ Historical Battles** | Eastern and Western classics with full structural breakdowns |
 
-The selected scenario becomes a full execution plan with three deliverables:
+---
 
-1. **Strategic Report** (Markdown) — executive summary through execution plan
-2. **Strategy Visualization** — interactive maps, flowcharts, and risk heat maps
-3. **Execution Roadmap** — timeline with milestones, decision gates, and dependencies
+## Strategic Archetypes
+
+All 15 archetypes in the pattern library, each with historical cases, modern business mappings, and detailed sub-tactics:
+
+| # | Archetype | Core Situation | Signature Cases |
+|---|-----------|---------------|-----------------|
+| 1 | **Resource-Inferior Challenger** | Small startup vs. well-funded incumbent | 명량해전, Cannae, Red Cliffs |
+| 2 | **Market Creation & Blue Ocean** | Competing in an undefined market | Warring States alliances, Nintendo Wii |
+| 3 | **Speed & First-Mover Advantage** | Racing to capture territory before others arrive | Alexander the Great, Blitzkrieg |
+| 4 | **Defense & Moat Building** | Protecting a hard-won position | Byzantine Empire, Fabian Strategy |
+| 5 | **Alliance & Partnership Strategy** | Building coalitions to counter a dominant force | Red Cliffs, Jang Bogo, Three Kingdoms |
+| 6 | **Disruption from Below** | Attacking from the bottom of the market up | 36 Stratagems, Christensen's framework |
+| 7 | **Pivot & Strategic Retreat** | Transforming under pressure | Golden Cicada, Nine Variations |
+| 8 | **Psychological & Perception Warfare** | Winning the narrative, not just the product battle | Sun Tzu's Use of Spies, D-Day deception |
+| 9 | **Platform & Ecosystem Dominance** | Building the platform others depend on | Warring States diplomacy, modern network effects |
+| 10 | **Survival Under Siege** | Extending the runway when under existential threat | Economy of Force, Fabius Maximus |
+| 11 | **M&A and Acquisition Strategy** | Growing through deals — acqui-hires, roll-ups, strategic buys | Warring States consolidation |
+| 12 | **Price War & Economic Warfare** | Fighting on cost when competitors try to undercut | Scorched earth, exhaustion strategy |
+| 13 | **Talent War & Team Building** | Winning the people battle in a competitive hiring market | Gwanggaeto's elite corps, Three Visits |
+| 14 | **Regulatory & Political Strategy** | Navigating or shaping the legal/regulatory environment | Machiavelli's The Prince, diplomatic alliances |
+| 15 | **International Expansion & Multi-Market Strategy** | Entering new geographies with asymmetric risk | Alexander's campaigns, T.E. Lawrence |
+
+---
 
 ## Historical Sources
 
 ### Eastern Classics
-- **Sun Tzu's Art of War** — 13 chapters of strategic principles
-- **36 Stratagems** — 36 classical Chinese strategic deceptions
-- **The Book of Five Rings** — Miyamoto Musashi's combat philosophy
-- **Three Kingdoms** — Battle of Red Cliffs, Three Visits, Battle of Guandu
-- **Strategies of the Warring States** — Vertical & horizontal alliances
-- **Korean Military History** — Yi Sun-sin (Battle of Myeongnyang), Gwanggaeto the Great, Jang Bogo
+- **孫子兵法 (Sun Tzu's Art of War)** — 13 chapters, the most referenced strategic text in history
+- **36 Stratagems (三十六計)** — 36 classical Chinese tactical deceptions, from "Kill with a borrowed knife" to "Empty City Strategy"
+- **五輪書 (The Book of Five Rings)** — Miyamoto Musashi's combat philosophy on timing and posture
+- **三國志 (Three Kingdoms)** — Battle of Red Cliffs, Three Visits to the Thatched Cottage, Battle of Guandu
+- **戰國策 (Strategies of the Warring States)** — Vertical and horizontal alliances, coalition warfare
+- **Korean Military History** — Yi Sun-sin's 명량해전 (Battle of Myeongnyang, 1597), Gwanggaeto the Great's expansion campaigns, Jang Bogo's maritime network strategy
 
 ### Western Classics
-- **Clausewitz's On War** — Fog of war, friction, center of gravity
-- **Machiavelli's The Prince** — Fox and lion, fortune and virtue
-- **Hannibal** — Battle of Cannae (double envelopment)
-- **Alexander the Great** — Speed and decisive action
-- **Napoleon** — Interior lines strategy
-- **T.E. Lawrence** — Guerrilla warfare principles
-- **Modern Strategy** — D-Day deception, asymmetric warfare
+- **Clausewitz's On War** — Fog of war, friction, center of gravity, culminating point
+- **Machiavelli's The Prince** — Fortune and virtue, the fox and the lion, political realism
+- **Hannibal Barca** — Battle of Cannae (216 BC), double envelopment, tactical innovation under resource constraint
+- **Alexander the Great** — Speed as a strategic weapon, decisive action, psychological dominance
+- **Napoleon Bonaparte** — Interior lines strategy, corps system, the strategic reserve
+- **T.E. Lawrence** — Guerrilla warfare, asymmetric tactics, the value of mobility over mass
+- **Modern Operations** — D-Day's Operation Bodyguard (strategic deception), asymmetric warfare doctrine
 
-## Pattern Categories
+### Modern Case Studies
+40+ structured analyses of modern business battles, including:
 
-| # | Pattern | Core Situation | Key Examples |
-|---|---------|---------------|--------------|
-| 1 | Resource-Inferior Challenger | David vs Goliath | Myeongnyang, Cannae |
-| 2 | Rapid Territory Expansion | Blitzkrieg | Alexander, Gwanggaeto |
-| 3 | Fortification & Defense | Defending the Castle | Fabius, Byzantine Empire |
-| 4 | Strategic Alliance | Alliance Building | Red Cliffs, Warring States, Jang Bogo |
-| 5 | Pivot & Transformation | Metamorphosis | Golden Cicada (36 Stratagems), Nine Variations |
-| 6 | Surprise & Innovation | Disruption | Feint East Strike West, Austerlitz |
-| 7 | Resource Efficiency & Survival | Survival Mode | Economy of Force, Fabian Strategy |
-| 8 | Information Warfare | Intelligence | Sun Tzu's Use of Spies, Enigma |
+| Company | Strategic Situation Modeled |
+|---------|----------------------------|
+| Airbnb | Regulatory warfare and narrative strategy |
+| Notion | Late-mover disruption in a mature SaaS market |
+| Tesla | Vertical integration as competitive moat |
+| Slack | Bottom-up enterprise infiltration |
+| SpaceX | Cost-structure disruption in a government-dependent industry |
+| Netflix | Sequential market pivot (DVD → streaming → content) |
+| Uber | Regulatory arbitrage and speed-of-deployment strategy |
+| Stripe | Developer-first ecosystem building |
+| Figma | Collaborative wedge into an entrenched market |
+| Duolingo | Gamification as retention moat |
+
+### Industry-Specific Patterns
+Seven industry playbooks with dynamics, failure modes, and historical analogues unique to each:
+
+`SaaS` · `Marketplace` · `Hardware` · `D2C` · `Fintech` · `AI/ML` · `Healthcare`
+
+---
 
 ## Usage Examples
 
+Drop any of these into Claude Code after installing — the skill activates automatically:
+
 ```
-"I'm a small startup competing against DoorDash in the food delivery space. Help me build a strategy."
-
-"We're entering the B2B SaaS market where Salesforce dominates. Simulate entry strategies for us."
-
-"A competitor just copied our MVP. How should we respond?"
-
-"We have 6 months of runway left. Should we pivot or stay the course?"
-
-"We're an AI startup and Big Tech just entered our market. Help me build a defense strategy using historical parallels."
+"I'm a small startup competing against DoorDash in food delivery.
+ Help me build a real strategy using historical parallels."
 ```
+
+```
+"We're entering B2B SaaS where Salesforce dominates.
+ Simulate 3 market entry scenarios and tell me which to run."
+```
+
+```
+"A well-funded competitor just copied our core feature.
+ What's our counter-move? War-game this for me."
+```
+
+```
+"We have 6 months of runway. Should we pivot or double down?
+ Use historical survival strategies to frame the decision."
+```
+
+```
+"Big Tech just entered our AI startup's market.
+ Give me a defense strategy grounded in how smaller forces
+ have beaten larger ones throughout history."
+```
+
+```
+"We're expanding into Southeast Asia from the US.
+ Map out an international expansion strategy with risk scenarios."
+```
+
+---
 
 ## Project Structure
 
@@ -138,32 +211,35 @@ The selected scenario becomes a full execution plan with three deliverables:
 business-history-strategist/
 ├── .claude-plugin/
 │   ├── plugin.json                  <- Plugin manifest
-│   └── marketplace.json             <- Marketplace definition
-├── skills/
-│   └── business-history-strategist/
-│       ├── SKILL.md                 <- Main workflow engine (Phases 1-4)
-│       └── references/
-│           ├── eastern-classics.md  <- Eastern strategic traditions
-│           ├── western-classics.md  <- Western strategic traditions
-│           ├── pattern-library.md   <- Business <-> historical pattern mapping
-│           └── output-templates.md  <- Report, visualization & roadmap templates
-├── SKILL.md                         <- Root skill file (same as above)
-├── references/                      <- Root references (same as above)
-├── README.md                        <- You are here
-└── LICENSE                          <- MIT License
+│   └── marketplace.json             <- Marketplace listing
+├── SKILL.md                         <- Main workflow engine (Phases 1-4)
+├── references/
+│   ├── pattern-library.md           <- 15 archetypes with historical mappings
+│   ├── modern-cases.md              <- 40+ modern business case studies
+│   ├── industry-patterns.md         <- 7 industry-specific strategic playbooks
+│   ├── eastern-classics.md          <- Eastern strategic traditions in full
+│   ├── western-classics.md          <- Western strategic traditions in full
+│   └── output-templates.md          <- Report, visualization & roadmap templates
+├── README.md
+└── LICENSE
 ```
+
+---
 
 ## Contributing
 
-Contributions are welcome! Here are some ways you can help:
+The reference library grows with contributions. High-value areas:
 
-- Add new historical cases or strategic traditions
-- Expand pattern categories with new archetypes
-- Improve output templates and visualizations
-- Add localization support for other languages
+- **New historical cases** — battles or campaigns with clear business structural parallels
+- **Modern case studies** — recent competitive situations with documented outcomes
+- **Industry patterns** — playbooks for industries not yet covered
+- **Archetype refinements** — sharper sub-tactics or better historical matches
+- **Output templates** — new visualization formats or report structures
 
-Please open a PR with a clear description of your changes.
+Open a PR with a clear description of what you're adding and why it improves pattern coverage.
+
+---
 
 ## License
 
-MIT License
+MIT — use it, fork it, build on it.
