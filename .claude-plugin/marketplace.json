@@ -13,10 +13,7 @@
       "author": {
         "name": "beomwookang"
       },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/beomwookang/business-history-strategist.git"
-      },
+      "source": "./",
       "category": "productivity",
       "homepage": "https://github.com/beomwookang/business-history-strategist",
       "tags": ["strategy", "business", "startup", "history", "competitive-analysis"]
