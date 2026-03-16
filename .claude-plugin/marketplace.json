@@ -1,26 +1,23 @@
 {
-  "name": "business-history-strategist",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "beomwookang-business-history-strategist",
+  "description": "Classical warfare wisdom meets modern business strategy simulation",
   "owner": {
     "name": "beomwookang"
-  },
-  "metadata": {
-    "description": "Classical warfare wisdom meets modern business strategy simulation",
-    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "bhs",
-      "source": ".",
       "description": "Applies Sun Tzu, Clausewitz, Machiavelli, 36 Stratagems, and more to simulate competitive scenarios and build actionable startup strategies.",
       "version": "1.0.0",
       "author": {
         "name": "beomwookang"
       },
-      "repository": "https://github.com/beomwookang/business-history-strategist",
-      "license": "MIT",
-      "keywords": ["strategy", "business", "startup", "history", "warfare", "simulation"],
+      "source": "./",
       "category": "productivity",
+      "homepage": "https://github.com/beomwookang/business-history-strategist",
       "tags": ["strategy", "business", "startup", "history", "competitive-analysis"]
     }
-  ]
+  ],
+  "version": "1.0.0"
 }
