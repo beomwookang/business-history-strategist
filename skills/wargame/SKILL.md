@@ -1,8 +1,6 @@
 ---
 name: wargame
-description: >
-  Phase 3: War-Gaming & Scenario Simulation — Generate 3-4 strategic scenarios with competitive response chains, risk matrices, and success probability assessments.
-  Trigger: "워게이밍", "시뮬레이션", "wargame", "simulate", "scenario analysis", "what if".
+description: Phase 3 War-Gaming — Generate strategic scenarios with competitive response chains and risk matrices
 ---
 
 # Business History Strategist — War-Gaming & Scenario Simulation

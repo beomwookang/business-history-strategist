@@ -1,9 +1,6 @@
 ---
 name: quick
-description: >
-  Quick one-shot strategic analysis — condensed 4-phase workflow in a single exchange.
-  Ask minimal questions, match 1-2 historical cases, suggest 2 scenarios, deliver concise recommendation.
-  Trigger: "빠른 분석", "quick", "quick analysis", "짧게", "간단히", "brief strategy".
+description: Quick one-shot strategic analysis — condensed workflow in a single exchange
 ---
 
 # Business History Strategist — Quick Analysis

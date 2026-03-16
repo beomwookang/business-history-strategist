@@ -1,8 +1,6 @@
 ---
 name: execute
-description: >
-  Phase 4: Strategy Formulation & Output Generation — Build full execution plans with Strategic Report, Strategy Visualization, and Execution Roadmap.
-  Trigger: "실행 계획", "execute", "build plan", "roadmap", "deliverables", "generate strategy".
+description: Phase 4 Strategy Formulation — Build execution plans with reports, visualizations, and roadmaps
 ---
 
 # Business History Strategist — Strategy Formulation & Output Generation

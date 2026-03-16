@@ -1,9 +1,6 @@
 ---
 name: match
-description: >
-  Phase 2: Historical Pattern Matching — Find structurally analogous historical battles and strategies for your business situation.
-  Maps your situation to 15 strategic archetypes and 40+ modern business cases.
-  Trigger: "역사 매칭", "pattern match", "historical parallel", "find analogies", "which battle is like my situation".
+description: Phase 2 Historical Pattern Matching — Find analogous battles and strategies for your business situation
 ---
 
 # Business History Strategist — Historical Pattern Matching

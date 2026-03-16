@@ -1,9 +1,6 @@
 ---
 name: full
-description: >
-  Complete 4-phase strategic analysis: Situation Diagnosis → Historical Pattern Matching → War-Gaming → Strategy & Outputs.
-  Full workflow from business context gathering to actionable roadmap delivery.
-  Trigger: "전략 분석", "full analysis", "complete strategy", or any broad business strategy request.
+description: Complete 4-phase strategic analysis from situation diagnosis to actionable roadmap delivery
 ---
 
 # Business History Strategist — Full Analysis

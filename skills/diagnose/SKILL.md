@@ -1,9 +1,6 @@
 ---
 name: diagnose
-description: >
-  Phase 1: Situation Diagnosis — Gather business context through structured briefing.
-  Produces a Battlefield Assessment of your current competitive position.
-  Trigger: "상황 진단", "diagnose", "briefing", "assess my situation", "analyze my business".
+description: Phase 1 Situation Diagnosis — Gather business context and produce a Battlefield Assessment
 ---
 
 # Business History Strategist — Situation Diagnosis
