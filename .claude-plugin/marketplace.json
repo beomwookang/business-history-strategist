@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "business-history-strategist",
+      "name": "bhs",
       "source": ".",
       "description": "Applies Sun Tzu, Clausewitz, Machiavelli, 36 Stratagems, and more to simulate competitive scenarios and build actionable startup strategies.",
       "version": "1.0.0",

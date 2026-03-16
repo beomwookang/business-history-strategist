@@ -34,10 +34,19 @@ This plugin exists to make that translation automatic.
 ```
 
 ```bash
-/plugin install business-history-strategist@beomwookang-business-history-strategist
+/plugin install bhs@beomwookang-business-history-strategist
 ```
 
-The skill is then available as `/business-history-strategist:business-history-strategist`.
+Then use any of the commands below:
+
+| Command | What it does |
+|---------|-------------|
+| `/bhs:full` | Complete 4-phase strategic analysis |
+| `/bhs:diagnose` | Phase 1 — Situation diagnosis & battlefield assessment |
+| `/bhs:match` | Phase 2 — Historical pattern matching |
+| `/bhs:wargame` | Phase 3 — Scenario simulation & war-gaming |
+| `/bhs:execute` | Phase 4 — Strategy formulation & deliverables |
+| `/bhs:quick` | One-shot condensed analysis (1-2 exchanges) |
 
 ### Manual Installation
 
@@ -210,15 +219,21 @@ Drop any of these into Claude Code after installing — the skill activates auto
 ```
 business-history-strategist/
 ├── .claude-plugin/
-│   ├── plugin.json                  <- Plugin manifest
+│   ├── plugin.json                  <- Plugin manifest (name: bhs)
 │   └── marketplace.json             <- Marketplace listing
-├── SKILL.md                         <- Main workflow engine (Phases 1-4)
+├── skills/
+│   ├── full/SKILL.md                <- /bhs:full — Complete 4-phase workflow
+│   ├── diagnose/SKILL.md            <- /bhs:diagnose — Phase 1: Situation diagnosis
+│   ├── match/SKILL.md               <- /bhs:match — Phase 2: Historical matching
+│   ├── wargame/SKILL.md             <- /bhs:wargame — Phase 3: Scenario simulation
+│   ├── execute/SKILL.md             <- /bhs:execute — Phase 4: Strategy & outputs
+│   └── quick/SKILL.md               <- /bhs:quick — One-shot condensed analysis
 ├── references/
 │   ├── pattern-library.md           <- 15 archetypes with historical mappings
 │   ├── modern-cases.md              <- 40+ modern business case studies
 │   ├── industry-patterns.md         <- 7 industry-specific strategic playbooks
-│   ├── eastern-classics.md          <- Eastern strategic traditions in full
-│   ├── western-classics.md          <- Western strategic traditions in full
+│   ├── eastern-classics.md          <- Eastern strategic traditions
+│   ├── western-classics.md          <- Western strategic traditions
 │   └── output-templates.md          <- Report, visualization & roadmap templates
 ├── README.md
 └── LICENSE

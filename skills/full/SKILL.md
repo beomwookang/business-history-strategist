@@ -1,18 +1,12 @@
 ---
-name: business-history-strategist
+name: full
 description: >
-  Build concrete business strategies by drawing on historical warfare, classical texts, and strategic traditions
-  (Sun Tzu, 36 Stratagems, Clausewitz, Machiavelli, Yi Sun-sin, Hannibal, Napoleon, and more).
-  Use this skill whenever a user asks for business strategy advice that references history, war, classical wisdom,
-  or ancient/historical analogies — or when they need startup strategy, competitive analysis, market entry plans,
-  go-to-market strategy, or scenario planning and want deep, non-generic insights. Also trigger when the user
-  mentions terms like "전략", "병법", "손자병법", "시뮬레이션", "워게이밍", "시나리오 분석", "경쟁 전략",
-  or asks to simulate strategic outcomes, map risks, or build execution roadmaps grounded in historical patterns.
-  Even if the user doesn't explicitly mention history, trigger this skill when they describe a competitive situation
-  that would benefit from historical pattern matching (e.g., "we're a small startup fighting a giant incumbent").
+  Complete 4-phase strategic analysis: Situation Diagnosis → Historical Pattern Matching → War-Gaming → Strategy & Outputs.
+  Full workflow from business context gathering to actionable roadmap delivery.
+  Trigger: "전략 분석", "full analysis", "complete strategy", or any broad business strategy request.
 ---
 
-# Business History Strategist
+# Business History Strategist — Full Analysis
 
 A strategic advisor that bridges historical military wisdom and modern business reality.
 This skill analyzes a startup's situation, finds structurally analogous historical battles and classical strategies,
@@ -229,6 +223,8 @@ Create a visual timeline artifact showing:
 - Resource allocation over time
 
 This should be interactive — the user should be able to see what happens in each phase.
+
+For output format templates, refer to `references/output-templates.md`.
 
 ---
 
